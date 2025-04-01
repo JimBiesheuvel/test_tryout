@@ -14,8 +14,8 @@ c = input("Geef 2 getallen gescheiden door een komma: ")
 
 c_lijst = c.split(",")
 
-d = c_lijst[0]
-e = c_lijst[1]
+d = int(c_lijst[0])
+e = int(c_lijst[1])
 
 print(d==e)
 
